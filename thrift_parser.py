@@ -1,6 +1,6 @@
 from thrift.protocol import TBinaryProtocol
 from thrift.transport import TTransport
-import sys, os, re, fileinput
+import sys, os, re
 sys.path.append("/home/ssp/lib/python")
 sys.path.append("/home/ssp/sippy")
 from ssp.thrift.ttypes import Calls, Cdrs, Surcharges, Commissions, CdrsCustomersDids, CallsSdp, CdrsConnectionsDids, CdrsDids, CdrsCustomers, CdrsConnections
