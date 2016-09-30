@@ -35,7 +35,7 @@ if name == "surcharges":
 
 if __name__ == "__main__":
     if len (sys.argv) < 2:
-        print "usage: thrift_parse.py full_path_to_the_[file|files_pattern_with_*])"
+        print "usage: thrift_parse.py full_path_to_the_[file|files_pattern_with_*|files_list])"
     else:
         for f in files:
             fd = open(f)
